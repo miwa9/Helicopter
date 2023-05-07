@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SpotDetailActivity">
+
+    <EditText
+        android:id="@+id/edit_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Client" />
+
+    <EditText
+        android:id="@+id/edit_dateFlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Flight Date"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/edit_flight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Flight Number" />
+
+    <EditText
+        android:id="@+id/edit_travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Flight Time"
+        android:inputType="time"/>
+
+    <EditText
+        android:id="@+id/edit_departure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Departure" />
+
+    <EditText
+        android:id="@+id/edit_landing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Landing" />
+
+    <EditText
+        android:id="@+id/edit_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Steps"
+        android:inputType="number"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_save"
+            android:layout_marginHorizontal="5dp"
+            android:text="Save"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_cancel"
+            android:layout_marginHorizontal="5dp"
+            android:text="Cancel"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_delete"
+            android:layout_marginHorizontal="5dp"
+            android:text="Delete"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
